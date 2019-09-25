@@ -5,6 +5,7 @@ package zp.com.evenbus;
  */
 public class EventBusContent {
 
-    public static final String ZP_MSG = "zp_msg";
+    /** EventBus */
+    public static final String EVENT_BUS_MAIN_THREAD = "event_bus_main_thread";
 
 }

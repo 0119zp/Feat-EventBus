@@ -19,6 +19,8 @@
 
         <activity android:name="zp.com.evenbus.eventbus.EventBusActivity" />
 
+        <activity android:name=".eventbus.EventBusPublishActivity" />
+
         <activity android:name=".rxbus.RxBusActivity" />
 
         <activity android:name=".liveeventbus.LiveEventBusActivity" />

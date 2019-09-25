@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Feat-EvenBus</string>
+
+    // EventBus
+    <string name="event_bus_dec">EventBus:%1$s</string>
+
+    // RxBus
+    <string name="rx_bus_dec">RxBus:%1$s</string>
+
+    // LiveEventBus
+    <string name="live_event_bus_dec">LiveEventBus:%1$s</string>
+
 </resources>

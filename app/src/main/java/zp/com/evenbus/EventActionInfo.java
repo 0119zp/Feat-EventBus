@@ -12,9 +12,9 @@ public class EventActionInfo {
     private String action;
 
     /** 基本的文本信息 */
-    public String msg;
+    public String stringValue;
     /** int型变量 */
-    public int intValule;
+    public int intValue;
     /** 任意类型变量 */
     public Object obj;
     /** 传递Bundle对象 */
