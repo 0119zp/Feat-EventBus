@@ -17,7 +17,11 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="zp.com.evenbus.ZpEvenbusActivity"/>
+        <activity android:name="zp.com.evenbus.eventbus.EventBusActivity" />
+
+        <activity android:name=".rxbus.RxBusActivity" />
+
+        <activity android:name=".liveeventbus.LiveEventBusActivity" />
 
     </application>
 
