@@ -41,4 +41,14 @@ public class EventBusPublishActivity extends AppCompatActivity {
         EventBus.getDefault().post(info);
     }
 
+    /**
+     * 子线程发布消息
+     */
+    public void threadPublishMsg(View view) {
+        EventActionInfo info = new EventActionInfo(EventBusContent.EVENT_BUS_THREAD);
+        info.intValue = 1;
+        info.stringValue = "stringValue：子线程发布消息";
+        EventBus.getDefault().post(info);
+    }
+
 }
